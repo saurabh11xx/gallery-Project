@@ -1,79 +1,16 @@
-# 📸 React Image Gallery with Pagination
+# React + Vite
 
-This project is a simple and clean **image gallery application** built using **React.js** and **Axios**. It fetches images from the Picsum API and displays them with pagination.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-* 📡 Fetch data from API (Picsum)
-* 🔄 Pagination (Next / Prev buttons)
-* ⏳ Loading state handling
-* ❌ Error handling
-* 🎨 Responsive UI using Tailwind CSS
-* 🔗 Click image to view original source
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Tech Stack
+## Expanding the ESLint configuration
 
-* React.js
-* Axios
-* Tailwind CSS
-
----
-
-## 📷 API Used
-
-* https://picsum.photos/
-
----
-
-## ⚙️ How It Works
-
-* On page load, images are fetched using `useEffect`
-* The `index` state controls pagination
-* Clicking **Next / Prev** updates the page number
-* New images are fetched dynamically
-* Loading and error states improve user experience
-
----
-
-## 📂 Project Structure
-
-```
-src/
- ├── App.jsx
- ├── index.css
- └── main.jsx
-```
-
----
-
-## ▶️ Run Locally
-
-```bash
-npm install
-npm run dev
-```
-
----
-
-## 💡 Future Improvements
-
-* Infinite scroll
-* Image search feature
-* Like / save images
-* Animations (Framer Motion)
-
----
-
-## 🙌 Author
-
-* Your Name
-
----
-
-## ⭐ Give a Star
-
-If you like this project, please give it a ⭐ on GitHub!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
